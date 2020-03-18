@@ -3,7 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="xamarin.Login.LoginFunctionalityTest"/>
+      <class name="xamarin.Login.LoginFunctionalitycheck"></class>
+      <class name="catogary.ItemCategoryFunctionality"/>
+      <class name=" "
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

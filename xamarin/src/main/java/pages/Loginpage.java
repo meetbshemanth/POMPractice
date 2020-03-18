@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.ISelect;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
-public class Login 
+public class Loginpage 
 {
 	WebDriver driver;
 	
@@ -32,13 +32,12 @@ public class Login
 	
 	
 
-	public Login(WebDriver driver) 
+	public Loginpage(WebDriver driver) 
 	{
 		this.driver=driver;
     	PageFactory.initElements(driver, this);
 	}
 
-	
 	public void enterUserNameAndPassWord(String uID ,String uPass)
 	{
 		webDriverWait(UserName);
